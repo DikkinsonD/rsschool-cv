@@ -13,7 +13,8 @@ I am always ready to learn new things and strive to be useful to the team and th
 ### **Skills**
 I have basic skills in HTML, CSS, and I study JS
 ## **Examples of my code**
-```<>String.prototype.toJadenCase = function () {
+``` 
+<>String.prototype.toJadenCase = function () {
 
 var arr = this.split(" ");
 
