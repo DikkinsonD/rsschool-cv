@@ -1,6 +1,6 @@
 <slims01@tut.by> [+375 29 6079543](tel:+375296079543)
 
-[About me](#about me) [Examples](#examples) [Projects](#projects) [Education](#education) [Languages](#languages)
+[About me](#aboutme) [Examples](#examples) [Projects](#projects) [Education](#education) [Languages](#languages)
 # **Dzmitry Kavaleuski**
 Junior designer
 
