@@ -13,20 +13,20 @@ I am always ready to learn new things and strive to be useful to the team and th
 ### **Skills**
 I have basic skills in HTML, CSS, and I study JS
 ## **Examples of my code**
-`          `<>String.prototype.toJadenCase = function () {
+```<>String.prototype.toJadenCase = function () {
 
-`          `var arr = this.split(" ");
+var arr = this.split(" ");
 
-`          `for (var i = 0; i < arr.length; i++) {
+for (var i = 0; i < arr.length; i++) {
 
-`           `arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);  
+arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);  
 
-`          `}
+}
 
-`          `return arr.join(" ");
+return arr.join(" ");
 
-`        `};      
-
+};
+```
 
 ## **Projects**
 I do not have any projects prepared at this time, but this will be fixed.
