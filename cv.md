@@ -27,3 +27,15 @@ I have basic skills in HTML, CSS, and I study JS
 
 `        `};      
 
+
+## **Projects**
+I do not have any projects prepared at this time, but this will be fixed.
+But on [GitHub](https://github.com/DikkinsonD/rsschool-cv.git) you can see what and how I am doing
+## **Education**
+I have a higher engineering education,
+and also took advanced training courses in the direction of
+Engineering of construction objects
+## **Languages**
+I estimate the level of knowledge of the English language as Beginner (A1) - Elementary (A2)
+
+slims01@tut.by [+375 29 6079543](tel:+375296079543)
