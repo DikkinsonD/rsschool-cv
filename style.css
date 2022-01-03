@@ -101,6 +101,11 @@ header {
   align-items: center;
   gap: 20px;
 }
+.contacts {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
 
 a { text-decoration: none;
   color: rgb(10, 10, 10);
