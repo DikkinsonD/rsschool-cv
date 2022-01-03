@@ -4,10 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <title>exercise Rsschool-CV</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>second CV</p>
+    <header class = "header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="subnavigation">
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-containe">
+        <section class="me" id="me">
+           
+            <div class="aboutme">
+                <div>
+                <h1 class="subheading">Dzmitry Kavaleuski</h1>
+                <h2>Junior frontend developer</h2>
+                </div>
+                <p>I'm 41 yars old. I live in Minsk.<br>
+                Currently, my main focus is learning new things and improving myself.<br>
+                Highly Organized: Currently I am organizing the work of over 100 people.<br> 
+                Result-oriented: the key performance indicators of my department have increased by 9% this year.<br> 
+                I am always ready to learn new things and strive to be useful to the team and the people around me.</p>
+                <div style="width: 45%;">
+                    <img src="me.JPG" class="rightpic" alt="Dzmitry Kavaleuski">
+                </div>
+            </div>
+
+
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <p>I have basic skills in HTML, CSS, and I study JS</p>
+                <h3 class="subheading">Examples of my code</h3>
+                <p>
+                    <code>String.prototype.toJadenCase = function () {<br>
+                          var arr = this.split(" ");<br>
+                          for (var i = 0; i arr.length; i++) {<br>
+                          arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);<br>
+                          }<br>
+                          return arr.join(" ");<br>
+                          };<br>
+                    </code>
+                </p>
+            </div>
+
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p>I do not have any projects prepared at this time, but this will be fixed.<br>
+                    But on <a href="https://github.com/DikkinsonD/rsschool-cv.git">GitHub</a> you can see what and how I am doing</p>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+              <h2 class="section-title">Education</h2>
+              <p>I have a higher engineering education,<br> 
+              and also took advanced training courses in the direction of<br> 
+              Engineering of construction objects</p>
+            </div>
+        </section>
+        
+        <section class="languages" id="languages">
+            <div class="container">
+              <h2 class="section-title">Languages</h2>
+              <p>I estimate the level of knowledge of the English language as Beginner (A1) - Elementary (A2)</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footertext">
+            <div class="footer_container">
+                <p>Copyright ©</p> <time datetime="2021">2021</time>
+                <p><a class="footer-email" href="mailto:slims01@tut.by">Email: slims01@tut.by</a></p>
+                <p><a class="footer-phone" href="tel:+375296079543">Phone nimber: +375 29 6079543</a></p>
+                <p><a href="https://github.com/DikkinsonD">My GitHub</a></p>
+                <div class="logors">
+                    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
