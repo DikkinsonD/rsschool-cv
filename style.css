@@ -1,0 +1,124 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 60, 60);
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  min-height: 100vh;
+  margin: 2; 
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #829985;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutme {
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, rgb(71, 71, 71), rgb(121, 118, 118) 40%, rgb(148, 144, 144));
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rightpic {
+  width: 85%;
+  float: right;
+  margin: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 100px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 7px #666;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.subnavigation li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 20px;
+      line-height: 50px;
+      transition: .3s;
+      text-decoration: none;
+      color: rgb(10, 10, 10);
+}
+
+.footertext {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logors {
+  width: 80px;
+  height: auto;
+  max-width: 100px;
+}
+
+.footer_container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
+}
+.contacts {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a { text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer p a {
+  color: azure;
+}
